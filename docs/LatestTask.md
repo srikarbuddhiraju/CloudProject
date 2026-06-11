@@ -17,9 +17,11 @@ Rolling log. 200-line limit — trim oldest entries when exceeded.
   Panchangam conventions)
 - [x] `docs/ConvoQA.md` and `docs/lessons.md` seeded
 
-### Open items (your tasks)
-- [ ] **Create the GitHub repo** for CloudProject (public, per Section 7) and
-  share the link — needed before any code/git setup.
+### Repo created and initial push done
+- [x] Srikar created `https://github.com/srikarbuddhiraju/CloudProject` (public)
+- [x] LICENSE (PolyForm Small Business 1.0.0, copyright Srikar Buddhiraju
+  2026), README.md, CONTRIBUTING.md (DCO note, PRs not yet accepted) added
+- [x] `git init`, initial commit (`6b609ec`), pushed to `main`
 
 ### Next session
 - [ ] First-four-weeks build plan (Section 10 open question) — draft once
