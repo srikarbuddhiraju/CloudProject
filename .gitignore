@@ -31,3 +31,6 @@
 
 # Claude Code local settings
 .claude/settings.local.json
+
+# Local working build plan (not for the public repo)
+/docs/BuildPlan.md

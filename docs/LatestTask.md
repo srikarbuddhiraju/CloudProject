@@ -39,9 +39,14 @@ Rolling log. 200-line limit — trim oldest entries when exceeded.
   passed verification, don't over-apply hallucination-mitigation to stable
   constants
 
+### Build plan drafted
+- [x] `docs/BuildPlan.md` created — dependency-ordered v0.1 plan (Tracks 0-11,
+  no time estimates). **Local only — gitignored**, referenced from
+  CLAUDE.md Section 12, session-start/session-end skills, and here.
+
 ### Next session
-- [ ] First-four-weeks build plan (Section 10 open question)
+- [ ] Work through `docs/BuildPlan.md` — start with Track 0 (test tenant) and/or
+  Track 1 (data model & store), per dependency summary at the bottom of that
+  file
 - [ ] Initial ALZ conformance rule set for v0.1 (Srikar to drive — domain
-  judgment core)
-- [ ] Section 6.1 step 1-3: set up free Azure tenant + ALZ accelerator +
-  Reader SP, to give `auth check` something real to authenticate against
+  judgment core, Track 5 in BuildPlan.md)

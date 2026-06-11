@@ -19,6 +19,9 @@ Run the CloudProject end-of-session checklist. Work through each item:
 4. **Update `LatestTask.md`** — add what was done this session, update the
    verification checklist, update the "Next Session" items list.
 
+4a. **Update `docs/BuildPlan.md`** (local only, gitignored) — check off
+   completed items, add any new tracks/items discovered this session.
+
 5. **Update `lessons.md`** — if any corrections were made this session, add
    the pattern now.
 

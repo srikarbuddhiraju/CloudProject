@@ -17,3 +17,10 @@ don't re-litigate those.
   mitigation (now CLAUDE.md Section 12).
 - Open: Srikar to create the GitHub repo and share the link before any
   code/git setup begins (tracked in `docs/LatestTask.md`).
+
+## 2026-06-11 — Build kickoff
+- Repo created, Go + React skeletons scaffolded, Azure auth check working
+  (see `docs/LatestTask.md`).
+- v0.1 build plan drafted in `docs/BuildPlan.md` (local only, gitignored —
+  dependency-ordered, no time estimates). Referenced from CLAUDE.md
+  Section 12 and the session-start/session-end skills.

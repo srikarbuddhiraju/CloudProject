@@ -224,6 +224,9 @@ Mirrors the conventions used in Srikar's other repos (RacePhysiX, Panchangam).
   when exceeded.
 - `lessons.md` — mistakes made and rules to avoid repeating, updated per the
   Self-Improvement Loop below.
+- `BuildPlan.md` — dependency-ordered v0.1 build plan, broken into
+  achievable tracks/items. **Local only — gitignored, not in the public
+  repo.** Check it for what's next and check off items as completed.
 
 ### Session start checklist
 Before doing anything else each session:

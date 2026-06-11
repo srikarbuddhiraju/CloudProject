@@ -18,6 +18,8 @@ Run this at the beginning of every session before doing anything else.
 3. **Read `docs/lessons.md`** — mistakes made and rules to avoid repeating
 4. **Read `docs/LatestTask.md`** — what was being worked on last session,
    open checklist items
+5. **Read `docs/BuildPlan.md`** (local only, gitignored) — dependency-ordered
+   v0.1 plan; identifies what's next and what's blocked on what
 
 Then summarise aloud to Srikar:
 - What was in progress last session (branch, task, state)
