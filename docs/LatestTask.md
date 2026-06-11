@@ -23,8 +23,25 @@ Rolling log. 200-line limit — trim oldest entries when exceeded.
   2026), README.md, CONTRIBUTING.md (DCO note, PRs not yet accepted) added
 - [x] `git init`, initial commit (`6b609ec`), pushed to `main`
 
+### Repo build kickoff (Go + React skeletons, Azure auth)
+- [x] Installed Go 1.26.4 user-locally (`~/.local/go`, no root needed —
+  Bazzite is immutable), added to PATH via `~/.bashrc`
+- [x] `backend/`: Go module + Cobra CLI skeleton (`cloudproject version`,
+  `--help`) — builds clean, merged to `main`
+- [x] `frontend/`: Vite + React + TypeScript scaffold + `@xyflow/react` v12
+  (current React Flow package, not legacy `reactflow`) — builds clean,
+  merged to `main`
+- [x] `internal/azure`: `Authenticator` interface +
+  `DefaultAzureCredential`-based implementation (Section 11 auth decision)
+- [x] `cloudproject auth check` — resolves credentials, requests an ARM
+  token; runs end-to-end (correctly fails with no creds configured here)
+- [x] Lessons recorded: always create feature branch FIRST, don't re-run
+  passed verification, don't over-apply hallucination-mitigation to stable
+  constants
+
 ### Next session
-- [ ] First-four-weeks build plan (Section 10 open question) — draft once
-  repo exists
+- [ ] First-four-weeks build plan (Section 10 open question)
 - [ ] Initial ALZ conformance rule set for v0.1 (Srikar to drive — domain
   judgment core)
+- [ ] Section 6.1 step 1-3: set up free Azure tenant + ALZ accelerator +
+  Reader SP, to give `auth check` something real to authenticate against
