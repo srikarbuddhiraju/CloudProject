@@ -1,0 +1,33 @@
+# Go
+/backend/bin/
+*.exe
+*.test
+*.out
+
+# Frontend
+/frontend/node_modules/
+/frontend/dist/
+
+# Embedded frontend build output (generated, not committed)
+/backend/internal/web/dist/
+
+# Snapshot databases (Section 11 — local SQLite snapshots)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Local config / credentials
+*.local.yaml
+*.local.yml
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Claude Code local settings
+.claude/settings.local.json
