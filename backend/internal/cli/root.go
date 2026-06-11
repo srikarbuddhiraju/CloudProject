@@ -20,6 +20,7 @@ reference architecture.`,
 	}
 
 	root.AddCommand(newVersionCmd())
+	root.AddCommand(newAuthCmd())
 
 	return root
 }
